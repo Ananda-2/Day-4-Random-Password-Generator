@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    /* background-image: linear-gradient(to right top, #051937, #00283a, #103436, #2f3e37, #454742); */
+    background-image: linear-gradient(to right top, #0b1051, #011249, #001340, #011236, #04112c, #031b33, #042339, #0a2c3f, #004357, #005c6c, #00757c, #0d8f87);
+    height: 100vh;
+}
+
+.container{
+    margin: 100px 100px;
+    /* align-items: center; */
+}
+
+.container h1{
+    color: whitesmoke;
+    padding-bottom : 50px;
+
+}
+.container h1 span {
+    margin-top: 200px;
+    color: rgb(94, 190, 65);
+    padding-bottom: 10px;
+    border-bottom: 4px solid;
+
+}
+
+.passwordShow{
+    display: flex;
+    border: none;
+    height: 50px;
+    background-color: #fff;
+    width: 300px;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.passwordShow input{
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 80%;
+    border: none;
+    outline: none;
+    
+}
+.passwordShow button {
+    /* border-radius: 10px; */
+    border: none;
+    outline: none;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.passwordShow button img {
+    height: 20px;
+    /* background-color: transparent; */
+    /* width: 30px; */
+
+}
+
+.generatePassword{
+    margin-top: 40px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    /* flex-direction: column; */
+    /* height: 30px; */
+
+    
+}
+.generatePassword button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    /* align-items: center; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    justify-content: space-between;
+}
+.generatePassword button img {
+    height: 20px;
+    margin-right: 10px;
+    /* margin-top: 5px; */
+}
+
+#copied{
+    color: white;
+    background-color: #808b8b;
+    margin-left: 250px;
+    margin-top: 20px;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    display: none;
+}
